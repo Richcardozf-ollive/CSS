@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ html {
+    font-size: 20px;
+ }
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.border-round {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    position: relative;
+    left: calc(50vw - 300px);
+    top: calc(25vh - 50px);
+}
+
+.border-red {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: white;
+    text-align: center;
+    border: 5px solid red;
+    padding: 10px;
+    position: relative;
+    left: calc(50vw - 300px);
+    top: calc(25vh - 50px);
+}

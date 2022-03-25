@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.container {
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+    position: relative;
+    top: calc(50vh - 200px);
+    left: calc(50vw - 300px);
+}
+
+div.box {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+div.box1 {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0%;
+}
+
+div.box2 {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+}
+
+div.box3 {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute; 
+    right: 0;
+    bottom: 0%;
+}
